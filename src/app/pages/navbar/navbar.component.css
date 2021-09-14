@@ -1,0 +1,22 @@
+.bg-transparent {
+  background: transparent;
+  transition: 1s ease;
+}
+.white {
+  color: white;
+}
+.black {
+  color: black;
+}
+.transition {
+  transition: 1s ease;
+}
+.logo {
+  width: 120px;
+}
+.menu {
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,12 @@
+<mat-toolbar class="fixed-top" [class]="scrollBG" (window:scroll)="scroll($event)">
+  <div class="container m-auto" fxLayout="row" fxLayoutAlign="space-between">
+    <img src="assets/img/logo.png" alt="Logo" class="logo">
+    <div fxLayout="row" id="menu-list">
+        <a href="#" class="menu" [class]="color">Inicio</a>
+        <a href="#" class="menu" [class]="color">Nosotros</a>
+        <a href="#" class="menu" [class]="color">Servicios</a>
+        <a href="#" class="menu" [class]="color">E-commerce</a>
+        <a href="#" class="menu" [class]="color">Contacto</a>
+    </div>
+  </div>
+</mat-toolbar>

@@ -1,0 +1,13 @@
+.img-slider {
+  background-image: url("src/assets/img/okok.jpg");
+}
+.grad {
+  background: rgba(2, 2, 98, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.title {
+  font-size: 35px;
+  text-align: justify;
+  padding-bottom: 10px;
+}
